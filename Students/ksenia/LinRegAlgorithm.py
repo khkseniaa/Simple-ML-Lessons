@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 
 
 # Загрузка данных
-dj = pd.read_csv('/Users/alex/Documents/DEV/MachineLearning/DJ.txt')
-gasp = pd.read_csv("/Users/alex/Documents/DEV/MachineLearning/GAZP_101001_171001.txt")
-yndx = pd.read_csv('/Users/alex/Documents/DEV/MachineLearning/YNDX.txt')
+dj = pd.read_csv('D&J-IND_101001_171001.txt')
+gasp = pd.read_csv('GAZP_101001_171001.txt')
+yndx = pd.read_csv('YNDX_101001_171001.txt')
 print(dj.shape, gasp.shape, yndx.shape)
 
 
